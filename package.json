@@ -1,0 +1,14 @@
+{
+  "name": "test-push-hook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ttacon/test-push-hook",
+  "author": "Trey Tacon <ttacon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^0.14.3"
+  },
+  "scripts": {
+    "prepush": "./pre-push-check.sh"
+  }
+}
